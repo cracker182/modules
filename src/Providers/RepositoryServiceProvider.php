@@ -24,9 +24,9 @@ class RepositoryServiceProvider extends ServiceProvider
         if ($driver == 'Custom') {
             $namespace = config('modules.custom_driver');
         } else {
-            $namespace = 'Caffeinated\Modules\Repositories\\'.$driver.'Repository';
+            $namespace = 'Cracker182\Modules\Repositories\\'.$driver.'Repository';
         }
 
-        $this->app->bind('Caffeinated\Modules\Contracts\Repository', $namespace);
+        $this->app->bind('Cracker182\Modules\Contracts\Repository', $namespace);
     }
 }

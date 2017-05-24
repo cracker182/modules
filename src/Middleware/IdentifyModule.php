@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Middleware;
+namespace Cracker182\Modules\Middleware;
 
-use Caffeinated\Modules\Modules;
+use Cracker182\Modules\Modules;
 use Closure;
 
 class IdentifyModule

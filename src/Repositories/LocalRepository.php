@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Repositories;
+namespace Cracker182\Modules\Repositories;
 
 class LocalRepository extends Repository
 {

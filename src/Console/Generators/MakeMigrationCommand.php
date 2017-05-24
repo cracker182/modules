@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Cracker182\Modules\Console\Generators;
 
 use Illuminate\Console\Command;
 

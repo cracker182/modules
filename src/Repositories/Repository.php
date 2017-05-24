@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Repositories;
+namespace Cracker182\Modules\Repositories;
 
-use Caffeinated\Modules\Contracts\Repository as RepositoryContract;
+use Cracker182\Modules\Contracts\Repository as RepositoryContract;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Filesystem\Filesystem;
 

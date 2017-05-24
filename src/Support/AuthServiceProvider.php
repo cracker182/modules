@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Support;
+namespace Cracker182\Modules\Support;
 
 use Illuminate\Support\Facades\Gate as IlluminateGate;
 

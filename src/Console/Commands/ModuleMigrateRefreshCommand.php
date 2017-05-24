@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Commands;
+namespace Cracker182\Modules\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;

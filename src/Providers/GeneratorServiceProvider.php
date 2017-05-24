@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Providers;
+namespace Cracker182\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

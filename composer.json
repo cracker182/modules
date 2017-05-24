@@ -1,33 +1,34 @@
 {
-    "name": "caffeinated/modules",
-    "description": "Laravel 5 Modules",
-    "keywords": ["modules", "laravel", "caffeinated"],
+    "name": "cracker182/modules",
+    "description": "Laravel 5 Modules (Forked from caffeinated)",
+    "keywords": ["modules", "laravel", "cracker182", "helfull"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Shea Lewis",
-            "email": "shea.lewis89@gmail.com"
+            "name": "Dennis Langer",
+            "email": "dennis.lange@outlook.de"
+        },
+        {
+            "name": "Sebastian Kraft",
+            "email": "admin@helfull.de"
         }
     ],
     "require": {
         "php": ">=5.6.4",
-        "illuminate/database": "^5.3",
-        "illuminate/support": "^5.3",
-        "illuminate/filesystem": "^5.3",
-        "illuminate/config": "^5.3",
-        "illuminate/routing": "^5.3"
+        "illuminate/database": "^5.4",
+        "illuminate/support": "^5.4",
+        "illuminate/filesystem": "^5.4",
+        "illuminate/config": "^5.4",
+        "illuminate/routing": "^5.4"
     },
     "autoload": {
         "psr-4": {
-            "Caffeinated\\Modules\\": "src/"
+            "Cracker182\\Modules\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.0-dev"
+            "dev-master": "develop"
         }
-    },
-    "suggest": {
-        "wikimedia/composer-merge-plugin": "Allows the ability to create and merge composer.json files for your individual modules for module-specific dependency management."
     }
 }

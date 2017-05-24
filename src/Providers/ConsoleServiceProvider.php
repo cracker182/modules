@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Providers;
+namespace Cracker182\Modules\Providers;
 
-use Caffeinated\Modules\Database\Migrations\Migrator;
+use Cracker182\Modules\Database\Migrations\Migrator;
 use Illuminate\Support\ServiceProvider;
 
 class ConsoleServiceProvider extends ServiceProvider

@@ -2,7 +2,7 @@
 
 namespace DummyNamespace\Providers;
 
-use Caffeinated\Modules\Support\ServiceProvider;
+use Cracker182\Modules\Support\ServiceProvider;
 
 class ModuleServiceProvider extends ServiceProvider
 {

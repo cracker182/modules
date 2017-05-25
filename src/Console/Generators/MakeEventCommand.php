@@ -49,6 +49,6 @@ class MakeEventCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return module_class($this->argument('slug'), 'Http\\Events');
+        return module_class($this->argument('slug'), 'Events');
     }
 }

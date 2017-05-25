@@ -2,7 +2,7 @@
 
 namespace Cracker182\Modules\Console\Commands;
 
-use Caffeinated\Modules\Modules;
+use Cracker182\Modules\Modules;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;

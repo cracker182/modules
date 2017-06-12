@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Cracker182\Modules\Console\Generators;
 
-use Caffeinated\Modules\Modules;
+use Cracker182\Modules\Modules;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Helper\ProgressBar;
@@ -23,7 +23,7 @@ class MakeModuleCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new Caffeinated module and bootstrap it';
+    protected $description = 'Create a new module and bootstrap it';
 
     /**
      * The modules instance.

@@ -1,13 +1,13 @@
 <?php
 
-namespace Caffeinated\Modules;
+namespace Cracker182\Modules;
 
-use Caffeinated\Modules\Contracts\Repository;
-use Caffeinated\Modules\Providers\BladeServiceProvider;
-use Caffeinated\Modules\Providers\ConsoleServiceProvider;
-use Caffeinated\Modules\Providers\GeneratorServiceProvider;
-use Caffeinated\Modules\Providers\HelperServiceProvider;
-use Caffeinated\Modules\Providers\RepositoryServiceProvider;
+use Cracker182\Modules\Contracts\Repository;
+use Cracker182\Modules\Providers\BladeServiceProvider;
+use Cracker182\Modules\Providers\ConsoleServiceProvider;
+use Cracker182\Modules\Providers\GeneratorServiceProvider;
+use Cracker182\Modules\Providers\HelperServiceProvider;
+use Cracker182\Modules\Providers\RepositoryServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
 class ModulesServiceProvider extends ServiceProvider

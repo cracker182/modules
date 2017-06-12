@@ -4,31 +4,31 @@ namespace Cracker182\Modules\Console\Generators;
 
 use Cracker182\Modules\Console\GeneratorCommand;
 
-class MakeControllerCommand extends GeneratorCommand
+class MakeEventCommand extends GeneratorCommand
 {
+
     /**
-     * The name and signature of the console command.
+     * The name and the signature of the command.
      *
      * @var string
      */
-    protected $signature = 'make:module:controller
+    protected $signature = 'make:module:event
     	{slug : The slug of the module}
-    	{name : The name of the controller class}
-    	{--resource : Generate a module resource controller class}';
+    	{name : The name of the controller class}';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Create a new module controller class';
+    protected $description = 'Create a new module event class';
 
     /**
      * String to store the command type.
      *
      * @var string
      */
-    protected $type = 'Module controller';
+    protected $type = 'Module event';
 
     /**
      * Get the stub file for the generator.
@@ -37,11 +37,7 @@ class MakeControllerCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        if ($this->option('resource')) {
-            return __DIR__.'/stubs/controller.resource.stub';
-        }
-
-        return __DIR__.'/stubs/controller.stub';
+        return __DIR__ . '/stubs/event.stub';
     }
 
     /**
@@ -53,6 +49,6 @@ class MakeControllerCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return module_class($this->argument('slug'), 'Http\\Controllers');
+        return module_class($this->argument('slug'), 'Events');
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Commands;
+namespace Cracker182\Modules\Console\Commands;
 
-use Caffeinated\Modules\Modules;
+use Cracker182\Modules\Modules;
 use Illuminate\Console\Command;
 
 class ModuleListCommand extends Command

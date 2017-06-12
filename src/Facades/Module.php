@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Facades;
+namespace Cracker182\Modules\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

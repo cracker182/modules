@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Commands;
+namespace Cracker182\Modules\Console\Commands;
 
-use Caffeinated\Modules\Modules;
-use Caffeinated\Modules\Traits\MigrationTrait;
+use Cracker182\Modules\Modules;
+use Cracker182\Modules\Traits\MigrationTrait;
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 use Illuminate\Database\Migrations\Migrator;

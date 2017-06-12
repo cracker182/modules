@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Contracts;
+namespace Cracker182\Modules\Contracts;
 
 interface Repository
 {

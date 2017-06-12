@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules;
+namespace Cracker182\Modules;
 
-use Caffeinated\Modules\Contracts\Repository;
+use Cracker182\Modules\Contracts\Repository;
 use Illuminate\Foundation\Application;
 
 class Modules

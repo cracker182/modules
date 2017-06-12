@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Traits;
+namespace Cracker182\Modules\Traits;
 
 trait MigrationTrait
 {
